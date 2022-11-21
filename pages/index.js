@@ -20,7 +20,7 @@ export default function Home() {
           <h2 className="text-xl italic font-montserrat md:text-2xl lg:text-4xl">Professional idiot, coder, gamer</h2>
         </div>
         <div>
-          <Image src={logoImg} className="w-40 duration-300 shadow-xl md:w-40 rounded-xl lg:w-72 hover:-translate-y-1 hover:scale-125" />
+          <Image src={logoImg} alt="avatar fyxren" className="w-40 duration-300 shadow-xl md:w-40 rounded-xl lg:w-72 hover:-translate-y-1 hover:scale-125" />
         </div>
       </main>
 
