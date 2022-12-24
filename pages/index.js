@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import DiscordStatus from '../components/DiscordStatus';
 import Navbar from '../components/Navbar';
 import logoImg from '../public/images/logo.png';
 
@@ -15,8 +16,9 @@ export default function Home() {
       <Navbar />
 
       <main className="flex flex-col-reverse items-center justify-center h-full p-5 text-center lg:text-left lg:justify-between md:px-20 xl:px-32 lg:flex-row">
-        <div className="justify-center py-5 space-y-5 border-b-4 tap-10 border-th-accent lg:justify-start">
-          <h1 className="text-3xl font-poly md:text-6xl lg:text-7xl">Greetings, I'm <span className="font-semibold">Fyxren</span> 👋</h1>
+        <div className="justify-center py-5 border-b-4 tap-10 border-th-accent lg:justify-start">
+          <DiscordStatus />
+          <h1 className="mb-5 text-3xl font-poly md:text-6xl lg:text-7xl">Greetings, I'm <span className="font-semibold">Fyxren</span> 👋</h1>
           <h2 className="text-xl italic font-montserrat md:text-2xl lg:text-4xl">Professional idiot, coder, gamer</h2>
         </div>
         <div>
